@@ -1,0 +1,11 @@
+*.swp
+.DS_STORE
+*.db
+.classpath
+.project
+.metadata
+.settings/*
+.gradle*
+.recommenders
+.stack-work/
+dist-stack/

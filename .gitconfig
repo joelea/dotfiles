@@ -1,0 +1,25 @@
+[user]
+	name = Joe Lea
+	email = joeleapublic@gmail.com
+[color]
+	ui = true
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=local --color
+  type = cat-file -t
+  dump = cat-file -p
+[core]
+	excludesfile = /Users/jlea/.gitignore
+[github]
+	user = jlea
+	token = 1
+[merge]
+  tool = vimdiff
+  conflictstyle = diff3
+[mergetool]
+  keepBackup = false
+  keepTemporaries = false
+  prompt = false
